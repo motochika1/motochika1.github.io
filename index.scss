@@ -16,10 +16,11 @@ $cCream: burlywood;
         font-weight: 600;
         cursor: pointer;
         transition: all 0.3s;
-
+        
+        &:hover {
+            background-color: $cBlack;
+            color: $cCream;
     }
-    &:hover {
-        background-color: $cBlack;
-        color: $cCream;
+
     }
 
