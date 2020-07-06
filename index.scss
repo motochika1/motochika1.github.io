@@ -1,11 +1,14 @@
 
 $cWhite: white;
 $cBlack: black;
+
 $cCream: burlywood;
 
 #table {
-    text-align: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
 
     .bt {
         background-color: $cWhite;
@@ -16,11 +19,11 @@ $cCream: burlywood;
         font-weight: 600;
         cursor: pointer;
         transition: all 0.3s;
-        
+
         &:hover {
             background-color: $cBlack;
             color: $cCream;
-    }
+        }
 
     }
 
