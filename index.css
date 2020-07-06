@@ -1,0 +1,47 @@
+#table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bt {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin: 50px 10px;
+  padding: 10px 40px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bt:hover {
+  background-color: black;
+  color: burlywood;
+}
+
+.bt-2 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin: 50px 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bt-2:hover {
+  background-color: black;
+  color: burlywood;
+}
+/*# sourceMappingURL=index.css.map */
