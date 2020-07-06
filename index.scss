@@ -2,9 +2,12 @@
 $cWhite: white;
 $cBlack: black;
 $cCream: burlywood;
-.table {
 
-    #bt {
+#table {
+    text-align: center;
+    }
+
+    .bt {
         background-color: $cWhite;
         color: $cBlack;
         border: 1px solid $cBlack;
@@ -15,9 +18,8 @@ $cCream: burlywood;
         transition: all 0.3s;
 
     }
-    #bt:hover {
+    &:hover {
         background-color: $cBlack;
         color: $cCream;
     }
 
-}
