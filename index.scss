@@ -1,0 +1,23 @@
+
+$cWhite: white;
+$cBlack: black;
+$cCream: burlywood;
+.table {
+
+    #bt {
+        background-color: $cWhite;
+        color: $cBlack;
+        border: 1px solid $cBlack;
+        margin: 50px 0px;
+        padding: 10px 40px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+
+    }
+    #bt:hover {
+        background-color: $cBlack;
+        color: $cCream;
+    }
+
+}
