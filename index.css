@@ -1,0 +1,17 @@
+.table #bt {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin: 50px 0px;
+  padding: 10px 40px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.table #bt:hover {
+  background-color: black;
+  color: burlywood;
+}
+/*# sourceMappingURL=index.css.map */
