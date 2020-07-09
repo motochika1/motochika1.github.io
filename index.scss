@@ -6,38 +6,39 @@ $cGray: #333333;
 
 hr {
     margin-block-start:100px;
-    height: 1px;
+    height: 2px;
     background-color: $cBlack;
-    width: 100%;
+    width: 90%;
     border: none;
    
  }
 
- #mynameis {
+ #container {
      position: relative;
-     width: 400px;
      font-size: 30px;
      font-weight: 600;
      font-family: 'Times New Roman', Times, serif;
      margin-left: 80px;
- }
 
 #buttons {
-        position: relative;
+        position: absolute;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        margin-top: 30px;
-        margin-left: 750px;
+        align-items: flex-end;
+        border-left: 2px solid $cBlack;
+        padding: 80px;
+        margin-top: -9px;
+        margin-left: 600px;
+        
 
-            .bt {
+             & .bt {
                 background-color: transparent;
                 color: $cBlack;
-                border: 1px solid $cBlack;
+                border: 2px solid $cBlack;
                 width: 200px;
                 height: 60px;
                 margin: 50px 10px;
-                font-size: 15px;
+                font-size: 20px;
                 font-weight: 600;
                 font-family: 'Times New Roman', Times, serif;
                 letter-spacing: 2px;
@@ -53,8 +54,33 @@ hr {
                     border: none;
                     box-shadow: none;
                 }
+            }
 
 
+        }
+
+        #intro {
+            font-size: 20px;
+           
+        }
+        .properties {
+            font-size: 20px;
+            padding-left: 30px;
+
+            & .name {
+                font-size: 30px;
+                border-left: thick solid red;
+                padding-left: 10px;
+            }
+            & .from {
+                font-size: 30px;
+                border-left: thick solid purple;
+                padding-left: 10px;
+            }
+           
+            & .p {
+                padding-top: 20px;
+            }
         }
 
     }
