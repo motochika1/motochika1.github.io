@@ -4,6 +4,7 @@ html {
 
 body {
   position: relative;
+  background: url(./black2.jpg);
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
@@ -30,28 +31,39 @@ body .introduction .welcome .myface {
   margin: 0 auto;
   height: 200px;
   width: 200px;
+  border-radius: 20px;
+  margin-bottom: 100px;
   background: url(./myFace.jpg);
+  background-size: cover;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+body .introduction .welcome .myface:hover {
+  background: url(./myFace6.jpg);
+  background-size: cover;
 }
 
 body .introduction .welcome h2 {
   display: inline-block;
   font-size: 30px;
-  color: black;
-  border: 1px solid black;
+  color: snow;
+  border: 1px solid snow;
   border-radius: 7px;
   padding: 6px 10px 10px;
 }
 
 body .section {
-  position: relative;
-  background: url(./blue2.jpg) center top/cover no-repeat;
-  height: 400px;
-  margin-top: 10px;
-  margin: 40px 30px;
-  font-size: 30px;
-  font-weight: 600;
-  font-family: 'Times New Roman', Times, serif;
-  border-radius: 7px;
+  /* position: relative;
+        background: url(./blue2.jpg) center top/cover no-repeat;
+        height: 400px;
+        margin-top: 10px;
+        margin: 40px 30px;
+        //text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 7px;*/
 }
 
 body .section .properties .section-title h2 {
@@ -72,7 +84,7 @@ body .section #buttons .bt {
   font-size: 20px;
   font-weight: 600;
   font-family: 'Times New Roman', Times, serif;
-  border-radius: 50%;
+  border-radius: 20px;
   letter-spacing: 2px;
   cursor: pointer;
   -webkit-transition: all 0.8s;
@@ -95,6 +107,6 @@ body .section #buttons .red-bt {
 }
 
 body .section #buttons .gr-bt {
-  border: 1px solid greenyellow;
+  border: 1px solid lightblue;
 }
 /*# sourceMappingURL=index.css.map */
