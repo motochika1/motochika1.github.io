@@ -1,30 +1,71 @@
-#container {
+html {
+  width: 100%;
+}
+
+body {
   position: relative;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+body .introduction {
+  width: 100%;
+}
+
+body .introduction .backimage {
+  width: 100%;
+  height: 800px;
+  background: url(./hakodate.jpg);
+  background-size: cover;
+}
+
+body .introduction .backimage .myname {
+  color: snow;
+  padding-top: 350px;
+  font-size: 50px;
+}
+
+body .introduction .welcome .myface {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  background: url(./myFace.jpg);
+}
+
+body .introduction .welcome h2 {
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 6px 10px 10px;
+}
+
+body .section {
+  position: relative;
+  background: url(./blue2.jpg) center top/cover no-repeat;
+  height: 400px;
+  margin-top: 10px;
+  margin: 40px 30px;
   font-size: 30px;
   font-weight: 600;
   font-family: 'Times New Roman', Times, serif;
-  margin-left: 80px;
+  border-radius: 7px;
 }
 
-#container #buttons {
-  text-align: center !important;
+body .section .properties .section-title h2 {
+  display: inline-block;
+  font-size: 30px;
+  color: snow;
+  border: 1px solid snow;
+  border-radius: 7px;
+  padding: 6px 10px 10px;
 }
 
-#container #buttons .pur-bt {
-  border: 1px solid purple;
-}
-
-#container #buttons .red-bt {
-  border: 1px solid red;
-}
-
-#container #buttons .gr-bt {
-  border: 1px solid green;
-}
-
-#container #buttons .bt {
+body .section #buttons .bt {
   background-color: transparent;
-  color: black;
+  color: snow;
   width: 130px;
   height: 130px;
   margin: 50px 10px;
@@ -38,34 +79,22 @@
   transition: all 0.8s;
 }
 
-#container #buttons .bt:hover {
+body .section #buttons .bt:hover {
+  letter-spacing: 4px;
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-#container #intro {
-  font-size: 20px;
+body .section #buttons .pur-bt {
+  border: 1px solid yellow;
 }
 
-#container .properties {
-  font-size: 20px;
-  padding-left: 30px;
+body .section #buttons .red-bt {
+  border: 1px solid red;
 }
 
-#container .properties .name {
-  font-size: 30px;
-  border-left: thick solid red;
-  padding-left: 10px;
-}
-
-#container .properties .from {
-  font-size: 30px;
-  border-left: thick solid purple;
-  padding-left: 10px;
-}
-
-#container .properties .p {
-  padding-top: 20px;
+body .section #buttons .gr-bt {
+  border: 1px solid greenyellow;
 }
 /*# sourceMappingURL=index.css.map */
