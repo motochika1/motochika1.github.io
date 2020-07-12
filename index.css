@@ -5,7 +5,7 @@ html {
 body {
   position: relative;
   background: url(./black2.jpg);
-  width: 100%;
+  width: 100vw;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
@@ -25,6 +25,57 @@ body .introduction .backimage .myname {
   color: snow;
   padding-top: 350px;
   font-size: 50px;
+}
+
+body .introduction .backimage .myname .lines span {
+  display: inline-block;
+  -webkit-animation: pointlinedelay 2.5s infinite;
+          animation: pointlinedelay 2.5s infinite;
+}
+
+body .introduction .backimage .myname .lines .line1 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+body .introduction .backimage .myname .lines .line2 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+body .introduction .backimage .myname .lines .line3 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+@-webkit-keyframes pointlinedelay {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pointlinedelay {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 body .introduction .welcome .myface {
@@ -53,6 +104,22 @@ body .introduction .welcome h2 {
   padding: 6px 10px 10px;
 }
 
+body .introduction .welcome #fullname {
+  font-size: 30px;
+  color: snow;
+  margin-bottom: 0px;
+}
+
+body .introduction .welcome #kanjiname {
+  font-size: 20px;
+  color: snow;
+}
+
+body .introduction .welcome #introd {
+  width: 100%;
+  height: 200px;
+}
+
 body .section {
   /* position: relative;
         background: url(./blue2.jpg) center top/cover no-repeat;
@@ -79,12 +146,12 @@ body .section #buttons .bt {
   background-color: transparent;
   color: snow;
   width: 130px;
-  height: 130px;
+  height: 60px;
   margin: 50px 10px;
   font-size: 20px;
   font-weight: 600;
   font-family: 'Times New Roman', Times, serif;
-  border-radius: 20px;
+  border-radius: 10px;
   letter-spacing: 2px;
   cursor: pointer;
   -webkit-transition: all 0.8s;
