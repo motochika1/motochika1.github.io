@@ -1,17 +1,16 @@
-html {
-  width: 100%;
-}
-
+/*html {
+    width: 100%;
+}*/
 body {
   position: relative;
   background: url(./black2.jpg);
-  width: 100vw;
+  margin: 0;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
 
 body .introduction {
-  width: 100%;
+  width: 100vw;
 }
 
 body .introduction .backimage {
