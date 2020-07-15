@@ -18,11 +18,12 @@ body .introduction .backimage {
   height: 800px;
   background: url(./hakodate.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 body .introduction .backimage .myname {
   color: snow;
-  padding-top: 350px;
+  padding-top: 230px;
   font-size: 50px;
 }
 

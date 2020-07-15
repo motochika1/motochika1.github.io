@@ -24,10 +24,11 @@ body {
             height: 800px;
             background: url(./hakodate.jpg);
             background-size: cover;
+            background-position: center;
 
             & .myname {
                 color: $cWhite;
-                padding-top: 350px;
+                padding-top: 230px;
                 font-size: 50px;
                 
                 & .lines {
