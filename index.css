@@ -176,4 +176,49 @@ body .section #buttons .red-bt {
 body .section #buttons .gr-bt {
   border: 1px solid lightblue;
 }
+
+body .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+body .products li {
+  display: inline;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+body .products img {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 7px;
+}
+
+body .products img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+body .products .ef-fade01 {
+  opacity: 0;
+  -webkit-transform: translate(0, 40px);
+          transform: translate(0, 40px);
+}
+
+body .products .fade01 {
+  opacity: 1.0;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
 /*# sourceMappingURL=index.css.map */

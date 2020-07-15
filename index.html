@@ -3,6 +3,22 @@
     <meta charset='utf-8'>
     <title>タイトル</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.js"></script>
+    <script type="text/javascript">
+    $(function() {
+      $('.ef-fade01').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+      console.log(isInView);
+      if(isInView){
+        $(this).stop().addClass('fade01');
+      }
+      else{
+        $(this).stop().removeClass('fade01');
+      }
+    });
+    });
+
+    </script>
   </head>
   <body>
 
@@ -43,10 +59,15 @@
         <button onclick = "location.href= './career/career.html'" class = "bt red-bt">Career</button>
         <button onclick = "location.href= './accounts/accounts.html'" class = "bt gr-bt">Accounts</button>
       </div>
-      
-      
-     
-        </div>
-       
+    </div>
+
+    <section class="products">
+      <ul>
+        <li class="ef-fade01"><img src="./washi.jpg"></li>
+        <li class="ef-fade01"><img src="./washi.jpg"></li>
+        <li class="ef-fade01"><img src="./washi.jpg"></li>
+        <li class="ef-fade01"><img src="./washi.jpg"></li>
+      </ul>
+    </section>
   </body>
 </html>
