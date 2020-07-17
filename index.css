@@ -194,26 +194,50 @@ body .products li {
   display: inline;
   -webkit-transition: .8s;
   transition: .8s;
+  position: relative;
 }
 
-body .products img {
+body .products .fukuwarai {
   display: inline-block;
-  height: 200px;
+  height: 300px;
   width: 200px;
   border-radius: 7px;
+  position: relative;
 }
 
-body .products img:hover {
+body .products .fukuwarai:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: .5s;
   transition: .5s;
 }
 
+body .products .fukuwarai .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body .products .fukuwarai .mask:hover {
+  opacity: 1;
+}
+
+body .products .fukuwarai .caption {
+  font-size: 130%;
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+}
+
 body .products .ef-fade01 {
   opacity: 0;
   -webkit-transform: translate(0, 40px);
           transform: translate(0, 40px);
+  position: relative;
 }
 
 body .products .fade01 {

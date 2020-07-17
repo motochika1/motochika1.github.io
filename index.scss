@@ -189,26 +189,57 @@ body {
         margin-bottom: 100px;
         overflow: hidden;
 
+
+
         & li {
             display: inline;
             transition: .8s;
+            position: relative;
         }
-        & img {
+
+
+    
+        & .fukuwarai {
                 display: inline-block;
-                height: 200px;
+                height: 300px;
                 width: 200px;
                 border-radius: 7px;
+                position: relative;
 
                 &:hover{
                     transform: scale(1.1);
                     transition: .5s;
-
                 }
+
+                & .mask {
+                    width: 100%;
+                    height:	100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    background-color:rgba(0,0,0,0.4);  
+                    
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+        
+                    & .caption {
+                        font-size: 130%;
+                        text-align: center;
+                        padding-top: 80px;
+                        color:#fff;
+                    }
         
         }
+
+        
+
         & .ef-fade01 {
             opacity: 0;
             transform: translate(0,40px); 
+            position: relative;
         }
         & .fade01 {
             opacity: 1.0;
