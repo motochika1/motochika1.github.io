@@ -9,11 +9,11 @@ body {
   text-align: center;
 }
 
-body .introduction {
+.introduction {
   width: 100vw;
 }
 
-body .introduction .backimage {
+.backimage {
   width: 100%;
   height: 800px;
   background: url(./hakodate.jpg);
@@ -21,29 +21,29 @@ body .introduction .backimage {
   background-position: center;
 }
 
-body .introduction .backimage .myname {
+.myname {
   color: snow;
   padding-top: 230px;
   font-size: 50px;
 }
 
-body .introduction .backimage .myname .lines span {
+.lines span {
   display: inline-block;
   -webkit-animation: pointlinedelay 2.5s infinite;
           animation: pointlinedelay 2.5s infinite;
 }
 
-body .introduction .backimage .myname .lines .line1 {
+.lines .line1 {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
 
-body .introduction .backimage .myname .lines .line2 {
+.lines .line2 {
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
 
-body .introduction .backimage .myname .lines .line3 {
+.lines .line3 {
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
@@ -78,7 +78,7 @@ body .introduction .backimage .myname .lines .line3 {
   }
 }
 
-body .introduction .welcome .myface {
+.welcome .myface {
   margin: 0 auto;
   height: 200px;
   width: 200px;
@@ -90,12 +90,12 @@ body .introduction .welcome .myface {
   transition: all 0.1s;
 }
 
-body .introduction .welcome .myface:hover {
+.welcome .myface:hover {
   background: url(./myFace6.jpg);
   background-size: cover;
 }
 
-body .introduction .welcome h2 {
+.welcome h2 {
   display: inline-block;
   font-size: 30px;
   color: snow;
@@ -104,23 +104,25 @@ body .introduction .welcome h2 {
   padding: 6px 10px 10px;
 }
 
-body .introduction .welcome #fullname {
+.welcome #fullname {
   font-size: 30px;
   color: snow;
   margin-bottom: 0px;
 }
 
-body .introduction .welcome #kanjiname {
+.welcome #kanjiname {
   font-size: 20px;
   color: snow;
 }
 
-body .introduction .welcome #introd {
+.welcome #introd {
+  font-size: 20px;
+  color: snow;
   width: 100%;
   height: 200px;
 }
 
-body .section {
+.section {
   /* position: relative;
         background: url(./blue2.jpg) center top/cover no-repeat;
         height: 400px;
@@ -133,7 +135,7 @@ body .section {
         border-radius: 7px;*/
 }
 
-body .section .properties .section-title h2 {
+.section .properties .section-title h2 {
   display: inline-block;
   font-size: 30px;
   color: snow;
@@ -142,7 +144,7 @@ body .section .properties .section-title h2 {
   padding: 6px 10px 10px;
 }
 
-body .section #buttons .bt {
+.section #buttons .bt {
   background-color: transparent;
   color: snow;
   width: 130px;
@@ -158,26 +160,26 @@ body .section #buttons .bt {
   transition: all 0.8s;
 }
 
-body .section #buttons .bt:hover {
+.section #buttons .bt:hover {
   letter-spacing: 4px;
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-body .section #buttons .pur-bt {
+.section #buttons .pur-bt {
   border: 1px solid yellow;
 }
 
-body .section #buttons .red-bt {
+.section #buttons .red-bt {
   border: 1px solid red;
 }
 
-body .section #buttons .gr-bt {
+.section #buttons .gr-bt {
   border: 1px solid lightblue;
 }
 
-body .products {
+.products {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,57 +192,33 @@ body .products {
   overflow: hidden;
 }
 
-body .products li {
+.products li {
   display: inline;
   -webkit-transition: .8s;
   transition: .8s;
-  position: relative;
 }
 
-body .products .fukuwarai {
+.products img {
   display: inline-block;
   height: 300px;
   width: 200px;
   border-radius: 7px;
-  position: relative;
 }
 
-body .products .fukuwarai:hover {
+.products img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: .5s;
   transition: .5s;
 }
 
-body .products .fukuwarai .mask {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-body .products .fukuwarai .mask:hover {
-  opacity: 1;
-}
-
-body .products .fukuwarai .caption {
-  font-size: 130%;
-  text-align: center;
-  padding-top: 80px;
-  color: #fff;
-}
-
-body .products .ef-fade01 {
+.products .ef-fade01 {
   opacity: 0;
   -webkit-transform: translate(0, 40px);
           transform: translate(0, 40px);
-  position: relative;
 }
 
-body .products .fade01 {
+.products .fade01 {
   opacity: 1.0;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);

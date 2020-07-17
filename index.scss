@@ -13,107 +13,111 @@ body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+}
 
  
-    & .introduction {
-        //text-align: center;
-        width: 100vw;
+.introduction {
+     //text-align: center;
+    width: 100vw;
+}
 
-        & .backimage {
-            width: 100%;
-            height: 800px;
-            background: url(./hakodate.jpg);
-            background-size: cover;
-            background-position: center;
+.backimage {
+     width: 100%;
+    height: 800px;
+    background: url(./hakodate.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
-            & .myname {
-                color: $cWhite;
-                padding-top: 230px;
-                font-size: 50px;
+.myname {
+    color: $cWhite;
+    padding-top: 230px;
+    font-size: 50px;
+}
                 
-                & .lines {
+.lines {
 
-                    & span{
-                        display: inline-block;
-                        animation: pointlinedelay 2.5s infinite;
-                    }
+    span{
+    display: inline-block;
+    animation: pointlinedelay 2.5s infinite;
+    }
 
-                    & .line1 {
-                       animation-delay: 0s;
+            & .line1 {
+             animation-delay: 0s;
     
-                    }
-                    & .line2 {
-                        animation-delay: 0.6s;
-                    
-                    }
-                    & .line3 {
-                        animation-delay: 1.2s;
-        
-                        }
-    
-                    @keyframes pointlinedelay {
-                        0%{
-                         opacity: 1;
-                        }
-                        25%{
-                         opacity: 1;  
-                        }
-                        50%{
-                         opacity: 0;
-                        }
-                        100%{
-                         opacity: 0;
-                        }
-                    }
-
-                }
-                
             }
+            & .line2 {
+            animation-delay: 0.6s;
+                    
+            }
+            & .line3 {
+            animation-delay: 1.2s;
+        
+            }
+    
+            @keyframes pointlinedelay {
+                0%{
+                    opacity: 1;
+                }
+                25%{
+                    opacity: 1;  
+                }
+                50%{
+                    opacity: 0;
+                }
+                100%{
+                    opacity: 0;
+                }
         }
 
-        & .welcome {
+}
+                
+
+.welcome {
             
-            & .myface {
-                margin: 0 auto;
-                height: 200px;
-                width: 200px;
-                border-radius: 20px;
-                margin-bottom: 100px;
-                background: url(./myFace.jpg);
-                background-size: cover;
-                transition: all 0.1s;
+    & .myface {
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        margin-bottom: 100px;
+        background: url(./myFace.jpg);
+        background-size: cover;
+        transition: all 0.1s;
 
-                &:hover {
-                    background: url(./myFace6.jpg);
-                    background-size: cover;
+        &:hover {
+            background: url(./myFace6.jpg);
+            background-size: cover;
 
-                }
-            }
-            & h2 {
-                display: inline-block;
-                font-size: 30px;
-                color: $cWhite;
-                border: 1px solid $cWhite;
-                border-radius: 7px;
-                padding: 6px 10px 10px;
-
-            }
-            & #fullname {
-               font-size: 30px;
-               color: $cWhite;
-               margin-bottom: 0px;
-            }
-            & #kanjiname {
-                font-size: 20px;
-                color: $cWhite;
-             }
-             & #introd {
-                 width: 100%;
-                 height: 200px;
-             }
         }
     }
-    & .section {
+    & h2 {
+        display: inline-block;
+        font-size: 30px;
+        color: $cWhite;
+        border: 1px solid $cWhite;
+        border-radius: 7px;
+        padding: 6px 10px 10px;
+
+    }
+    & #fullname {
+        font-size: 30px;
+        color: $cWhite;
+        margin-bottom: 0px;
+    }
+    & #kanjiname {
+        font-size: 20px;
+        color: $cWhite;
+    }
+    & #introd {
+        font-size: 20px;
+        color: $cWhite;
+        width: 100%;
+        height: 200px;       
+    }
+}
+
+.section {
        /* position: relative;
         background: url(./blue2.jpg) center top/cover no-repeat;
         height: 400px;
@@ -127,20 +131,20 @@ body {
         
         
 
-        & .properties {
+    & .properties {
 
-            & .section-title h2 {
-                display: inline-block;
-                font-size: 30px;
-                color: $cWhite;
-                border: 1px solid $cWhite;
-                border-radius: 7px;
-                padding: 6px 10px 10px;
+        & .section-title h2 {
+            display: inline-block;
+            font-size: 30px;
+            color: $cWhite;
+            border: 1px solid $cWhite;
+            border-radius: 7px;
+            padding: 6px 10px 10px;
                 
-            }
         }
+    }
 
-        #buttons {
+    #buttons {
 
         & .bt {
 
@@ -158,94 +162,93 @@ body {
             transition: all 0.8s;
             //box-shadow: 2px 2px 0 0 black;
         
-                &:hover {
-                    letter-spacing: 4px;
-                    //transform: translate(2.5px, 2.5px);
-                    border:  none;
-                    box-shadow: none;
-                }
-
+            &:hover {
+                letter-spacing: 4px;
+                //transform: translate(2.5px, 2.5px);
+                border:  none;
+                box-shadow: none;
             }
+
+        }
             
 
-            & .pur-bt {
-                border: 1px solid yellow;
-            }
-            & .red-bt {
-                border: 1px solid red;
-            }
-            & .gr-bt {
-                border: 1px solid lightblue;
-            }
+        & .pur-bt {
+            border: 1px solid yellow;
+        }
+        & .red-bt {
+            border: 1px solid red;
+        }
+        & .gr-bt {
+            border: 1px solid lightblue;
+        }
             
-        }
-
     }
 
-    & .products {
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        overflow: hidden;
-
-
-
-        & li {
-            display: inline;
-            transition: .8s;
-            position: relative;
-        }
-
-
-    
-        & .fukuwarai {
-                display: inline-block;
-                height: 300px;
-                width: 200px;
-                border-radius: 7px;
-                position: relative;
-
-                &:hover{
-                    transform: scale(1.1);
-                    transition: .5s;
-                }
-
-                & .mask {
-                    width: 100%;
-                    height:	100%;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    opacity: 0;
-                    background-color:rgba(0,0,0,0.4);  
-                    
-                        &:hover {
-                            opacity: 1;
-                        }
-                    }
-        
-                    & .caption {
-                        font-size: 130%;
-                        text-align: center;
-                        padding-top: 80px;
-                        color:#fff;
-                    }
-        
-        }
-
-        
-
-        & .ef-fade01 {
-            opacity: 0;
-            transform: translate(0,40px); 
-            position: relative;
-        }
-        & .fade01 {
-            opacity: 1.0;
-            transform: translate(0,0); 
-        }
-
-    }
-    
 }
+
+.products {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+
+
+
+    & li {
+        display: inline;
+        transition: .8s;
+    }
+
+
+    & img {
+        display: inline-block;
+        height: 300px;
+        width: 200px;
+        border-radius: 7px;
+
+        &:hover{
+        transform: scale(1.1);
+        transition: .5s;
+        }
+
+    }
+
+    // & .cover {
+    //     height: 300px;
+    //     width: 200px;
+    //     position: relative;
+    //     overflow: hidden;
+
+    //     & .caption {
+    //     height: 300px;
+    //     width: 200px;
+    //     position: absolute;
+    //     top: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     right: 0;
+    //     background: rgba(0,0,0,0.5);
+    //     opacity: 0;
+    //     color: #fff;
+    //     display: flex;
+    //     align-items: center;
+    //     text-align: center;
+    //     padding: 30px;
+    //     }
+    // }
+
+    
+
+    & .ef-fade01 {
+        opacity: 0;
+        transform: translate(0,40px);
+    }
+    & .fade01 {
+        opacity: 1.0;
+        transform: translate(0,0); 
+    }
+
+}
+
+
