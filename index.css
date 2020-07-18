@@ -156,8 +156,8 @@ body {
   border-radius: 10px;
   letter-spacing: 2px;
   cursor: pointer;
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .section #buttons .bt:hover {
@@ -187,8 +187,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   overflow: hidden;
 }
 
@@ -200,16 +200,16 @@ body {
 
 .products img {
   display: inline-block;
-  height: 300px;
-  width: 200px;
-  border-radius: 7px;
+  height: 400px;
+  width: 300px;
+  border-radius: 14px;
 }
 
 .products img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .products .ef-fade01 {

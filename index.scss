@@ -159,7 +159,7 @@ body {
             border-radius: 10px;
             letter-spacing: 2px;
             cursor: pointer;
-            transition: all 0.8s;
+            transition: all 0.3s;
             //box-shadow: 2px 2px 0 0 black;
         
             &:hover {
@@ -189,8 +189,8 @@ body {
 .products {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     overflow: hidden;
 
 
@@ -203,13 +203,13 @@ body {
 
     & img {
         display: inline-block;
-        height: 300px;
-        width: 200px;
-        border-radius: 7px;
+        height: 400px;
+        width: 300px;
+        border-radius: 14px;
 
         &:hover{
         transform: scale(1.1);
-        transition: .5s;
+        transition: .3s;
         }
 
     }
