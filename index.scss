@@ -13,6 +13,7 @@ body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    
 }
 
  
@@ -27,16 +28,19 @@ body {
     background: url(./hakodate.jpg);
     background-size: cover;
     background-position: center;
+    transition: .8s;
 }
 
 .myname {
     color: $cWhite;
     padding-top: 230px;
     font-size: 50px;
+    transition: 1.2s;
+    
 }
                 
 .lines {
-
+    
     span{
     display: inline-block;
     animation: pointlinedelay 2.5s infinite;
@@ -74,22 +78,22 @@ body {
                 
 
 .welcome {
-            
+        
     & .myface {
         margin: 0 auto;
         height: 200px;
         width: 200px;
         border-radius: 20px;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         background: url(./myFace.jpg);
         background-size: cover;
-        transition: all 0.1s;
+        transition: all .5s;
 
-        &:hover {
-            background: url(./myFace6.jpg);
-            background-size: cover;
+        // &:hover {
+        //     background: url(./myFace6.jpg);
+        //     background-size: cover;
 
-        }
+        // }
     }
     & h2 {
         display: inline-block;
@@ -100,20 +104,22 @@ body {
         padding: 6px 10px 10px;
 
     }
-    & #fullname {
+    & .fullname {
         font-size: 30px;
         color: $cWhite;
-        margin-bottom: 0px;
+        margin-bottom: 50px;
     }
-    & #kanjiname {
+    & .kanjiname {
         font-size: 20px;
         color: $cWhite;
+        transition: .5s;
     }
-    & #introd {
+    & .introd {
         font-size: 20px;
         color: $cWhite;
         width: 100%;
-        height: 200px;       
+        height: 200px;
+        transition: .5s;       
     }
 }
 
@@ -150,16 +156,16 @@ body {
 
             background-color: transparent;
             color: $cWhite;
-            width: 130px;
-            height: 60px;
-            margin: 50px 10px;
-            font-size: 20px;
+            width: 150px;
+            height: 55px;
+            margin: 50px 20px;
+            font-size: 25px;
             font-weight: 600;
             font-family: 'Times New Roman', Times, serif;
-            border-radius: 10px;
-            letter-spacing: 2px;
+            border-radius: 7px;
+            letter-spacing: 1px;
             cursor: pointer;
-            transition: all 0.3s;
+            transition: all .3s;
             //box-shadow: 2px 2px 0 0 black;
         
             &:hover {
@@ -197,15 +203,16 @@ body {
 
     & li {
         display: inline;
-        transition: .8s;
+        transition: .5s;
     }
 
 
     & img {
         display: inline-block;
         height: 400px;
-        width: 300px;
+        width: 250px;
         border-radius: 14px;
+        
 
         &:hover{
         transform: scale(1.1);
@@ -238,17 +245,14 @@ body {
     //     }
     // }
 
-    
-
-    & .ef-fade01 {
-        opacity: 0;
-        transform: translate(0,40px);
-    }
-    & .fade01 {
-        opacity: 1.0;
-        transform: translate(0,0); 
-    }
-
 }
 
 
+.ef-fade01 {
+    opacity: 0;
+    //transform: translate(0,40px);
+}
+.fade01 {
+    opacity: 1.0;
+    //transform: translate(0,0); 
+}

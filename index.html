@@ -16,16 +16,15 @@
         $(this).stop().removeClass('fade01');
       }
     });
-    });
-
+  });
     </script>
   </head>
   <body>
 
     <!-- ここに書きたい内容を書く -->
     <div class="introduction">
-      <div class="backimage">
-        <div class="myname">
+      <div class="backimage ef-fade01">
+        <div class="myname ef-fade01">
           <span class="lines">
           <span class="line1">-</span>
           <span class="line2">-</span>
@@ -41,27 +40,27 @@
       </div>
       <div class="welcome">
         <h2>Welcome</h2>
-        <p id="fullname">HIROSE MOTOCHIKA</p>
-        <p id="kanjiname">Androidアプリ開発勉強中</p>
-        <p id="introd">
+        <p class="fullname">HIROSE MOTOCHIKA</p>
+        <div class="myface ef-fade01">
+        </div>
+        <div class = "section with-photo" id = "container">
+          <div class="properties" id = "intro">
+            <div class="section-title">
+              <h2>About me</h2>
+            </div>
+          </div>
+          <div id = "buttons">
+            <button href="#" onclick="location.hash='';location.hash='pro';return false;"class = "bt pur-bt">Products</button>
+            <button onclick = "location.href= './career/career.html'" class = "bt red-bt">Career</button>
+            <button onclick = "location.href= './accounts/accounts.html'" class = "bt gr-bt">Accounts</button>
+          </div>
+        </div>
+        <p class ="kanjiname ef-fade01">アプリ開発勉強中</p>
+        <p class ="introd ef-fade01">
           このサイトにはこれまでに私が制作したアプリなどを自由に掲載していきます。<br>
           連絡を取りたいことがありましたら下記のSNSを参照してDMお願いします。<br><br><br>
           ※トプ画は日本三大夜景の一つである函館の夜景です。
         </p>
-        <div class="myface">
-        </div>
-      </div>
-    </div>
-    <div class = "section with-photo" id = "container">
-      <div class="properties" id = "intro">
-        <div class="section-title">
-          <h2>About me</h2>
-        </div>
-      </div>
-      <div id = "buttons">
-        <button href="#" onclick="location.hash='';location.hash='pro';return false;"class = "bt pur-bt">Products</button>
-        <button onclick = "location.href= './career/career.html'" class = "bt red-bt">Career</button>
-        <button onclick = "location.href= './accounts/accounts.html'" class = "bt gr-bt">Accounts</button>
       </div>
     </div>
 
@@ -72,10 +71,11 @@
 
       <!--<img src="fukuwarai.jpg" class="cover">
             <figcaption class="caption">面白福笑い</figcaption>-->
-            <ul>
+      <ul>
         <li class="ef-fade01"><img src="fukuwarai.jpg"></li>
         <li class="ef-fade01"><img src="tenki.jpg"></li>
         <li class="ef-fade01"><img src="car.jpg"></li>
+        <li class="ef-fade01"><img src="maruyama.jpg"></li>
       </ul>
     </section>
   </body>
