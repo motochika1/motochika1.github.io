@@ -22,7 +22,7 @@
   <body>
 
     <!-- ここに書きたい内容を書く -->
-    <div class="introduction">
+    <section class="introduction">
       <div class="backimage ef-fade01">
         <div class="myname ef-fade01">
           <span class="lines">
@@ -43,15 +43,15 @@
         <p class="fullname">HIROSE MOTOCHIKA</p>
         <div class="myface ef-fade01">
         </div>
-        <div class = "section with-photo" id = "container">
-          <div class="properties" id = "intro">
+        <div class = "with-photo">
+          <div class="properties">
             <div class="section-title">
               <h2>About me</h2>
             </div>
           </div>
           <div id = "buttons">
             <button href="#" onclick="location.hash='';location.hash='pro';return false;"class = "bt pur-bt">Products</button>
-            <button onclick = "location.href= './career/career.html'" class = "bt red-bt">Career</button>
+            <button href="#" onclick="location.hash='';location.hash='ca';return false;" class = "bt red-bt">Career</button>
             <button onclick = "location.href= './accounts/accounts.html'" class = "bt gr-bt">Accounts</button>
           </div>
         </div>
@@ -62,12 +62,14 @@
           ※トプ画は日本三大夜景の一つである函館の夜景です。
         </p>
       </div>
-    </div>
+    </section>
 
     
 
     <section class="products">
       <a name="pro"></a>
+
+      <div id="title">Products</div>
 
       <!--<img src="fukuwarai.jpg" class="cover">
             <figcaption class="caption">面白福笑い</figcaption>-->
@@ -77,6 +79,20 @@
         <li class="ef-fade01"><img src="images/car.jpg"></li>
         <li class="ef-fade01"><img src="images/maruyama.jpg"></li>
       </ul>
+    </section>
+
+    <section class="career ef-fade01">
+      <a name="ca"></a>
+      <div id="title">Career</div>
+      <div class="careers">
+      <li>2018年4月  ：　　会津大学コンピュータ理工学部に入学</li>
+      <br>
+      <li>2019年6月  ：　　spajamハッカソンに出場</li>
+      <br>
+      <li>2019年9月  ：　　会津大学シリコンバレーインターンシップに参加<br>　　　　　　　　NVIDIA社のJetsonNanoを用いたハッカソンをする</li>
+      <br>
+      <li>2019年11月  ：　 ヒーローズリーグ押しキャラハッカソンに出場し<br>             　　　　　　　 審査員特別賞を受賞</li>
+      </div>
     </section>
   </body>
 </html>
