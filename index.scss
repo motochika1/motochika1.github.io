@@ -284,3 +284,23 @@ body {
     }
     
 }
+
+.accounts {
+    text-align: center;
+    
+    height: 100px;
+    width: 100%;
+    color: $cWhite;
+    margin-bottom: 200px;
+    font-size: 30px;
+    transition: all .5s;
+
+    & ul {
+        padding-top: 50px;
+        padding-left: 585px;
+    }
+}
+
+
+  
+

@@ -251,4 +251,20 @@ body {
 .careers li {
   list-style: none;
 }
+
+.accounts {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  color: snow;
+  margin-bottom: 200px;
+  font-size: 30px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.accounts ul {
+  padding-top: 50px;
+  padding-left: 585px;
+}
 /*# sourceMappingURL=index.css.map */
