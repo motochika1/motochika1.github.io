@@ -20,7 +20,7 @@ body {
 .introduction {
      //text-align: center;
     width: 100vw;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }
 
 .backimage {
@@ -197,6 +197,7 @@ body {
     flex-direction: column;
     margin-bottom: 300px;
     overflow: hidden;
+    transition: .5s;
 
     & #title {
         margin-bottom: 50px;
@@ -208,7 +209,7 @@ body {
 
     & li {
         display: inline;
-        transition: .5s;
+        
     }
 
 
@@ -266,7 +267,7 @@ body {
     height: 600px;
     width: 100%;
     color: $cWhite;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     font-size: 25px;
     transition: all .5s;
 
@@ -274,6 +275,8 @@ body {
         margin-bottom: 50px;
         color: $cWhite;
         font-size: 30px;
+        
+        
     }
 }
 .careers {
@@ -292,8 +295,14 @@ body {
     width: 100%;
     color: $cWhite;
     margin-bottom: 200px;
-    font-size: 30px;
     transition: all .5s;
+
+    & #title {
+        margin-bottom: 10px;
+        color: $cWhite;
+        font-size: 30px;
+        
+    }
 
     & ul {
         padding-top: 50px;

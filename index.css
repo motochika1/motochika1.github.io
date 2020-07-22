@@ -11,7 +11,7 @@ body {
 
 .introduction {
   width: 100vw;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 
 .backimage {
@@ -190,6 +190,8 @@ body {
           flex-direction: column;
   margin-bottom: 300px;
   overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .products #title {
@@ -200,8 +202,6 @@ body {
 
 .products li {
   display: inline;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .products img {
@@ -231,7 +231,7 @@ body {
   height: 600px;
   width: 100%;
   color: snow;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   font-size: 25px;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -258,9 +258,14 @@ body {
   width: 100%;
   color: snow;
   margin-bottom: 200px;
-  font-size: 30px;
   -webkit-transition: all .5s;
   transition: all .5s;
+}
+
+.accounts #title {
+  margin-bottom: 10px;
+  color: snow;
+  font-size: 30px;
 }
 
 .accounts ul {
