@@ -212,14 +212,48 @@ body {
         
     }
 
-
-    & img {
+    & .pic {
+        position: relative;
         display: inline-block;
         height: 400px;
         width: 250px;
+        z-index: 2;
+
+        &:hover{
+            transform: scale(1.1);
+            opacity: 50%;
+            transition: .3s;
+            }
+
+    }
+
+    & .deco {
+        position: absolute;
+        font-size: 20px;
+        font-weight: 600;
+        top: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        color: $cWhite;
+        z-index: 1;
+        opacity: 0;
+
+        &:hover{
+           opacity: 1;
+        }
+    }
+
+
+    & img {
+        
+        height: 100%;
+        width: 100%;
         border-radius: 14px;
         
-
         &:hover{
         transform: scale(1.1);
         opacity: 50%;
