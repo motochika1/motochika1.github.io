@@ -206,7 +206,6 @@ body {
     }
 
 
-
     & li {
         display: inline;
         
@@ -217,13 +216,6 @@ body {
         display: inline-block;
         height: 400px;
         width: 250px;
-        z-index: 2;
-
-        &:hover{
-            transform: scale(1.1);
-            opacity: 50%;
-            transition: .3s;
-            }
 
     }
 
@@ -239,11 +231,14 @@ body {
         align-items: center;
         justify-content: center;
         color: $cWhite;
-        z-index: 1;
         opacity: 0;
+        transition: .3s;
 
         &:hover{
+           background-color: $cGray;
+           border-radius: 14px;  
            opacity: 1;
+           
         }
     }
 
@@ -252,13 +247,7 @@ body {
         
         height: 100%;
         width: 100%;
-        border-radius: 14px;
-        
-        &:hover{
-        transform: scale(1.1);
-        opacity: 50%;
-        transition: .3s;
-        }
+        border-radius: 14px;  
 
     }
 
