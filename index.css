@@ -237,7 +237,7 @@ body {
 .products .deco:hover {
   background-color: #333333;
   border-radius: 14px;
-  opacity: 1;
+  opacity: 0.85;
 }
 
 .products img {
