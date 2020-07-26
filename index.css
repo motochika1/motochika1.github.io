@@ -287,6 +287,7 @@ body {
 .careers li {
   list-style: none;
   padding-left: 50px;
+  padding-bottom: 30px;
 }
 
 .contents {
@@ -294,24 +295,37 @@ body {
 }
 
 .accounts {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100px;
   width: 100%;
-  color: snow;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 .accounts #title {
-  margin-bottom: 10px;
   color: snow;
   font-size: 30px;
+  padding-bottom: 30px;
 }
 
 .accounts ul {
-  padding-top: 50px;
-  padding-left: 573px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .follow-me {
@@ -329,8 +343,8 @@ body {
 
 .icon img {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   cursor: pointer;
   background-size: cover;
