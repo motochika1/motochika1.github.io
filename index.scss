@@ -263,7 +263,7 @@ body {
 }
 
 .career {
-    display: inline-block;
+   margin: 0 auto;
     height: 600px;
     width: 100%;
     color: $cWhite;
@@ -279,13 +279,20 @@ body {
         
     }
 }
+
 .careers {
-    text-align: left;
-    padding-left: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
     & li {
         list-style: none;
+        padding-left: 50px;
     }
     
+}
+.contents {
+    text-align: left;
 }
 
 .accounts {
