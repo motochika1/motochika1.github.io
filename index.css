@@ -259,7 +259,6 @@ body {
   height: 600px;
   width: 100%;
   color: snow;
-  padding-bottom: 80px;
   font-size: 25px;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -354,5 +353,13 @@ body {
 
 .icon img:hover {
   opacity: 50%;
+}
+
+.twitter {
+  padding-bottom: 40px;
+}
+
+.letter_white {
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */
